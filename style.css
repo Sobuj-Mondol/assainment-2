@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------------
+    Top container style
+--------------------------*/
+.head{
+    font-size: 8px;
+    margin-left: 10px;
+    color: rgb(97, 97, 97);
+}
+.container{
+    display: flex;
+    width: 100%;
+    font-size: 5px;
+    padding: 10px;
+}
+.top-benar h1{
+    font-size: 8px;
+    color: rgb(87, 84, 84);
+}
+.top-benar p{
+    font-size: 3px;
+    color: rgb(97, 97, 97);
+}
+.images img{
+    width: 110px;
+    height: 110px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.top-benar a{
+    text-decoration: none;
+    font-size: 3px;
+    background-color: rgb(194, 18, 164);
+    padding: 2px 5px;
+    border-radius: 20px;
+    color: #fff;
+}
+/*---------------------------
+    Top Blogs Style
+----------------------------*/
+.blogs{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(139, 149, 160);
+}
+.container-2{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+.collection{
+    width: 70px;
+    height: 150px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px 0.5px lightslategrey;
+}
+.collection .images img{
+    width: 100%;
+    height: 60px;
+    margin-left: 0;
+}
+.collection-info{
+    display: block;
+    font-size: 5px;
+    padding: 5px;
+    color: rgb(62, 68, 73);
+    margin-bottom: 30px;
+    text-align: justify;
+    
+}
+.fa-star{
+    font-size: 4px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #FFC014;
+}
+.collection-detail{
+    font-size: 4px;
+    color: rgb(165, 177, 189);
+}
+.last a{
+    text-decoration: none;
+    color: rgb(194, 18, 164);
+    font-size: 4px;
+    margin-left: 225px;
+    margin-top: 10px;
+  
+}
+/*-------------------------------
+    Footer area style
+ ---------------------------------*/
+.container-3{
+    text-align: center;
+    background-color: black;
+}
+ .foot h2{
+     padding: 10px 0px 0px 0px;
+    font-size: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+.foot p{
+    font-size: 3px;
+    color: rgb(160, 160, 160);
+}
+.footes{
+    font-size: 10px;
+    color: #fff;
+}
